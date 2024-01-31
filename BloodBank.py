@@ -5,13 +5,13 @@ from tkinter import *
 import sys
 print('Python %s on %s' % (sys.version, sys.platform))
 
-# import mysql.connector
-# db = mysql.connector.connect(
-#     host='localhost',
-#     user='root',
-#     password='',
-#     database='bloodbank'
-# )
+import mysql.connector
+db = mysql.connector.connect(
+     host='localhost',
+     user='root',
+     password='',
+     database='bloodbank'
+)
 # conn = db.cursor()
 #conn.execute('Create database bloodbank')
 #create table (name (varchar(255)),lastname (varchar(255)),age (varchar(255)),bloodgroup (varchar(255)))
